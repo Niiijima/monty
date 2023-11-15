@@ -1,8 +1,8 @@
 #include "monty.h"
 
 /**
- *add_dnodeint_end - add a note at the end of the doubly link list
- *@head: first position of linked list
+ *add_dnodeint_end - to add a note at the end of a doubly link list
+ *@head: first position of linked lists
  *@n: data to store
  *Return: a doubly linked list
  */
@@ -38,8 +38,8 @@ stack_t *add_dnodeint_end(stack_t **head, const int n)
 }
 
 /**
- *add_dnodeint - add a note at the begining of the doubly link list
- *@head: first position of linked list
+ *add_dnodeint - to add a note at the beginning of the doubly link lists
+ *@head: first position of linked lists
  *@n: data to store
  *Return: a doubly linked list
  */
@@ -73,9 +73,9 @@ stack_t *add_dnodeint(stack_t **head, const int n)
 }
 
 /**
- * free_dlistint - frees the doubly linked list
+ * free_dlistint - frees the doubly linked lists
  *
- * @head: head of the list
+ * @head: head of the lists
  * Return: no return
  */
 void free_dlistint(stack_t *head)

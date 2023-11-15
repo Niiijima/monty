@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * _strcmp - Function that compares two strings.
+ * _strcmp - Function that will compare two strings.
  * @s1: type str compared
  * @s2: type str compared
  * Return: 0 if s1 and s2 are equals.
@@ -20,7 +20,7 @@ int _strcmp(char *s1, char *s2)
 }
 
 /**
- * _sch - search if a char is inside a string
+ * _sch - to search if a char is inside a string
  * @s: string to review
  * @c: char to find
  * Return: 1 if success 0 if not
@@ -44,7 +44,7 @@ int _sch(char *s, char c)
 }
 
 /**
- * _strtoky - function that cut a string into tokens depending of the delimit
+ * _strtoky - function that cuts a string into tokens depending on the delimit
  * @s: string to cut in parts
  * @d: delimiters
  * Return: first partition

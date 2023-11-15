@@ -1,9 +1,9 @@
 #include "monty.h"
 
 /**
- * _push - pushes an element to the stack
+ * _push - will push an element to the stack
  *
- * @doubly: head of the linked list
+ * @doubly: head of the linked lists
  * @cline: line number
  * Return: no return
  */
@@ -60,10 +60,10 @@ void _pall(stack_t **doubly, unsigned int cline)
 }
 
 /**
- * _pint - prints the value at the top of the stack
+ * _pint - printsss the value at the top of the stack
  *
- * @doubly: head of the linked list
- * @cline: line number
+ * @doubly: head of the linked lists
+ * @cline: line numbers
  * Return: no return
  */
 void _pint(stack_t **doubly, unsigned int cline)
